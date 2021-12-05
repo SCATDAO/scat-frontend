@@ -1,0 +1,103 @@
+#css-proposal-button-divider {
+  display: flex;
+  justify-content: flex-end;
+  margin: 4rem 0;
+}
+
+#css-proposal-submit-button {
+  background: var(--complementary-color-blue);
+  color: var(--base-color-white-primary);
+}
+
+.css-proposal-form-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.css-proposal-form-note {
+  border: 1px solid var(--complementary-color-blue);
+  background: var(--color-soft-blue);
+  color: var(--complementary-color-blue);
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+.css-proposal-form-swrap {
+  padding: 0 10rem;
+}
+
+.css-proposal-form-wcon {
+  border: 1px solid var(--border-primary);
+  padding: 0 2rem;
+  border: 1px solid var(--border-primary);
+}
+
+.css-proposal-form-title {
+  color: var(--text-color-primary);
+  font-size: var(--text-size-third);
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.css-proposal-form-divider {
+  display: block;
+  margin-top: 1rem;
+}
+
+.css-proposal-form-required {
+  color: red;
+}
+
+.css-proposal-form-upload {
+  width: 270px;
+  height: 270px;
+  max-height: 270px;
+  min-height: 270px;
+  max-width: 270px;
+  min-width: 270px;
+  border-radius: 8px;
+  border: 1px solid var(--complementary-color-blue);
+  margin-top: 1rem;
+  opacity: 0.5;
+}
+
+.css-proposal-form-upload-w {
+  border: 1px dashed var(--complementary-color-blue);
+  border-radius: 8px;
+  margin: 0 2rem;
+  margin-top: 3rem;
+}
+
+.css-proposal-form-input {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.css-proposal-form-button {
+  padding: 10px 10px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid var(--complementary-color-blue);
+  color: var(--complementary-color-blue);
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.css-proposal-form-text-input {
+  height: 40px;
+  width: 98%;
+  border: 1px solid var(--border-primary);
+  margin-top: 10px;
+  background: var(--base-color-white-secondary);
+  padding: 0 1%;
+  border-radius: 4px;
+}
+
+.css-proposal-form-divider textarea {
+  height: 160px;
+  width: 100%;
+  border: 1px solid var(--border-primary);
+  margin-top: 10px;
+  background: var(--base-color-white-secondary);
+}

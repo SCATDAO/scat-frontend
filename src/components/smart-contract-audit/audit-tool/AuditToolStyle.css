@@ -1,0 +1,44 @@
+.css-audit-tool-wrap {
+  display: flex;
+  width: inherit;
+}
+
+.css-scat-left-column {
+  width: 46.25vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.css-scat-left-header {
+  height: 3.75vh;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  border-left: none;
+  border-right: none;
+  display: flex;
+}
+
+.css-scat-header-tab {
+  width: 150px;
+  height: 3.75vh;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  border-left: none;
+}
+
+.css-scat-right-column {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-left: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.css-scat-output {
+  border-top: 1px rgba(0, 0, 0, 0.1) solid;
+  width: 100%;
+  height: 300px;
+  bottom: 0;
+  position: absolute;
+  background: var(--base-color-white-secondary);
+}

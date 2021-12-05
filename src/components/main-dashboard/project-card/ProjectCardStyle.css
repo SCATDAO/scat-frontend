@@ -1,0 +1,128 @@
+.css-project-card-wrap {
+  width: 270px;
+  height: 509px;
+  margin: 0 10px;
+  min-width: 270px;
+  max-width: 270px;
+  min-height: 509px;
+  max-height: 509px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.css-project-card-header {
+  padding: 0 1rem;
+  margin-top: 1rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.css-project-card-category {
+  background: var(--color-soft-blue);
+  height: 100%;
+  border-radius: 4px;
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  color: var(--complementary-color-blue);
+  font-size: var(--text-size-secondary);
+}
+
+.css-project-card-title {
+  padding: 0 1rem;
+  margin-top: 1rem;
+  height: 2rem;
+  color: var(--complementary-color-blue);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.css-project-card-legend {
+  padding: 0 1rem;
+  font-size: var(--text-size-secondary);
+}
+
+.css-project-card-avatar-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.css-project-card-avatar-wrap img {
+  height: 80px;
+  background: rgb(63, 85, 196);
+  border-radius: 8px;
+}
+
+.css-project-card-more {
+  transform: rotate(90deg);
+}
+
+.css-project-card-foot {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  justify-content: space-between;
+  font-size: var(--text-size-secondary);
+}
+
+.css-project-card-chat {
+  background: var(--base-color-white-secondary);
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+
+.css-project-card-chat span {
+  margin-left: 5px;
+}
+
+.css-project-card-date {
+  font-size: var(--text-size-secondary);
+}
+
+.css-project-card-by {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  color: var(--text-color-primary);
+  font-weight: bold;
+  font-size: var(--text-size-secondary);
+}
+
+.css-project-card-tags {
+  padding: 0 1rem;
+  display: flex;
+}
+
+.css-project-card-tag {
+  border: 1px solid var(--text-color-secondary);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: var(--text-size-secondary);
+  border-radius: 16px;
+  color: var(--text-color-secondary);
+  margin-bottom: 12px;
+  margin-right: 10px;
+  text-transform: lowercase;
+}
+
+.css-project-card-tag span {
+  white-space: nowrap;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+

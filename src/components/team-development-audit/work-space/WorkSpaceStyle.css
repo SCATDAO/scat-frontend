@@ -1,0 +1,51 @@
+.css-work-space-wrap {
+  width: 331px;
+  max-width: 331px;
+  min-width: 331px;
+  height: 100%;
+  box-shadow:-1px 0 20px var(--border-primary);
+}
+
+.css-work-space-title {
+  font-weight: bold;
+  color: var(--text-color-primary);
+  font-size: var(--text-size-title);
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+
+.css-work-space-search {
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+
+.css-work-space-search svg {
+  position: fixed;
+  margin: 30px 10px;
+}
+
+.css-work-space-search input {
+  border: 1px var(--border-primary) solid;
+  border-radius: 4px;
+  height: 40px;
+  color: var(--text-color-primary);
+  outline: none;
+}
+
+.css-work-space-subtitle {
+  font-size: var(--text-size-secondary);
+  color: var(--text-color-secondary);
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+
+.css-work-space-item {
+  padding-left: 2.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.css-work-space-item span {
+  margin-left: 0.5rem;
+}

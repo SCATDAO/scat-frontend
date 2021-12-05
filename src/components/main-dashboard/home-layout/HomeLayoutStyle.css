@@ -1,0 +1,88 @@
+.css-home-layout-wrap {
+  width: 100%;
+  height: 100vh;
+  background: var(--base-color-white-secondary);
+  justify-content: center;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.css-home-layout-con {
+  display: flex;
+  flex-direction: column;
+  background: var(--base-color-white-primary);
+  width: 1200px;
+  height: fit-content;
+  padding-bottom: 10rem;
+}
+
+.css-home-layout-projects {
+  display: flex;
+  justify-content: center;
+}
+
+.css-home-layout-banner {
+  height: 270px;
+  min-height: 270px;
+  justify-content: center;
+  display: flex;
+}
+
+.css-home-layout-header {
+  height: 100%;
+  display: flex;
+  width:100%;
+  margin: 0 2rem;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 0px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1152' height='270' preserveAspectRatio='none' viewBox='0 0 1152 270'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1036%26quot%3b)' fill='none'%3e%3crect width='1152' height='270' x='0' y='0' fill='url(%23SvgjsLinearGradient1037)'%3e%3c/rect%3e%3cpath d='M0 0L236.38 0L0 70.74z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 70.74L236.38 0L390.15 0L0 111.34z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 111.34L390.15 0L780.43 0L0 120.77000000000001z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 120.77000000000001L780.43 0L867.6099999999999 0L0 134.06z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1152 270L931.99 270L1152 233.63z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1152 233.63L931.99 270L601.29 270L1152 193.88z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1152 193.88L601.29 270L471.72999999999996 270L1152 120.05z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1152 120.05000000000001L471.73 270L322.96000000000004 270L1152 95.54z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1036'%3e%3crect width='1152' height='270' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='19.14%25' y1='-81.67%25' x2='80.86%25' y2='181.67%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1037'%3e%3cstop stop-color='rgba(23%2c 74%2c 213%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(48%2c 99%2c 238%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.css-home-layout-round {
+  display: flex;
+  padding: 0 1rem;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.css-home-layout-button {
+  width: 150px;
+  padding: 0 10px;
+  line-height: 3rem;
+  border: 2px solid #ffffff;
+  outline: none;
+  border-radius: 4px;
+  background: transparent;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.css-home-layout-des {
+  color: #ffffff;
+}
+
+.css-home-layout-des span {
+  font-size: var(--text-size-fourth);
+}
+
+.css-home-layout-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  line-height: 60px;
+  margin-bottom: 2rem;
+}
+
+.css-home-layout-nav span {
+  margin-right: 2rem;
+  cursor: pointer;
+}

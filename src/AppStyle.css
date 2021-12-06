@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap");
 
 :root {
-  --text-color-primary: #071034;
+  --text-color-primary: #001737;
   --text-color-secondary: #727384;
 
   --text-size-secondary: 0.8rem;
@@ -14,15 +14,17 @@
   --base-color-black-secondary: #86898d;
 
   --base-color-white-primary: #ffffff;
-  --base-color-white-secondary: #f7f7fa;
+  --base-color-white-secondary: rgba(26, 108, 225, 0.03);
 
   --complementary-color-green: #7fedca;
   --complementary-color-yellow: #fac292;
-  --complementary-color-blue: #3063ee;
+  --complementary-color-blue: #0069f5;
 
   --color-soft-blue: rgba(48, 99, 238, 0.1);
 
-  --border-primary: rgba(100, 121, 143, 0.122);
+  --border-primary: #e9f1fc;
+
+  --shadow-blue: 0 0 25px rgba(26, 108, 225, 0.1);
 }
 
 * {
@@ -42,7 +44,7 @@ header {
   align-items: center;
   box-sizing: border-box;
   padding: 0 1.5rem;
-  box-shadow: 0 1px 6px rgba(153, 153, 153, 0.25);
+  box-shadow: var(--shadow-blue);
   z-index: 1;
 }
 
@@ -67,7 +69,7 @@ li {
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-  line-height: 1.50;
+  line-height: 1.5;
 }
 
 #code-layout {
@@ -84,7 +86,8 @@ li {
 }
 
 .css-main-panel-button.active {
-  background: rgba(23, 74, 213, 1);
+  background: #0050DC;
+  box-shadow: inset -1px 0 0 var(--border-primary);
 }
 
 #css-yellow-button {
@@ -243,8 +246,8 @@ li {
   height: 100%;
   background: linear-gradient(
     22.58deg,
-    rgba(23, 74, 213, 1) 0%,
-    rgba(48, 99, 238, 1) 100%
+    rgba(0, 80, 220, 1) 0%,
+    rgba(0, 105, 245, 1) 100%
   );
 }
 

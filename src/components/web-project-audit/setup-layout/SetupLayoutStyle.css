@@ -1,5 +1,6 @@
 .css-setup-layout-wrap {
   margin-top: 1rem;
+  box-shadow: var(--shadow-blue);
 }
 
 .css-setup-layout-con {

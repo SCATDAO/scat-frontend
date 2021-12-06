@@ -9,9 +9,9 @@ export default {
                     "category": "Team Development",
                     "name": "Anonymous",
                     "type": "Open",
-                    "note": "If yes, please list all members of development team",
-                    "example": "example",
                     "question": "Is the development team anonymous?",
+                    "worksteps": "1 . Review project website to check if team is listed. / 2. List each member listed in box below.",
+                    "example": "example",
                     "options": {
                         "1": "Yes",
                         "2": "No"
@@ -27,11 +27,11 @@ export default {
                     "number": 2,
                     "id": "TD2",
                     "category": "Team Development",
-                    "name": "Real person",
+                    "name": "Real Persons",
                     "type": "Open",
-                    "note": "To verify each member exists, please check LinkedIn profile for credentials and vouch against other social media outlets such as Facebook, Instagram , Twitter, etc. If the team member is a developer, do they have a github with some of their work submitted? then use google image search with their profile photo to see if it is a stock photo or it is their actual photo. ( running an official background check would be idea but with de multiple countries involved, there likely isn't a system that would work for everywhere)",
-                    "example": "- Eric Helms:  https://www.linkedin.com/in/eric-helms-cpa-97866a3b",
-                    "question": "Can you verify that each member of the development team is a real person?",
+                    "question": "Can you verify that each member of the Development team is a real person?",
+                    "worksteps": "A. List each person obtained in project website in box below. / B. If links to LinkedIn Github, or other websites are provided, click through each link and review the information to determine if it looks genuine. Genuine profiles would likely have a long history, several contacts, current information, recommended skills,  etc. / C. If no links are provided, you will need to manually search. Begin with Google for general information. Check Linkedin, Facebook, Instagram, Github, and twitter to see if you can locate a profile that matches each person. / D. Google each members names and see if you can find any profiles or information associated with them. Good sources to review are Linkedin, Facebook, Instagram, Github, and Twitter. / E.Use google image serch for each profile picture that was provided. Instructions for using Google search can be found here )https://support.google.com/websearch/answer/1325808). Ensure image is not a stock photo and can be traced to a matching social media platform. / F. For any profiles found using workstep D or E, perform the review from Workstep B. / G. Save links to supporting information in this workstep to support your review.  ",
+                    "example": "example",
                     "options": {
                         "1": "Yes",
                         "2": "No"
@@ -42,27 +42,7 @@ export default {
                     "files": [],
                     "images": [],
                     "video": []
-                },
-                {
-                    "number": 3,
-                    "id": "TD3",
-                    "category": "Team Development",
-                    "name": "Team history",
-                    "type": "Open",
-                    "note": "Please list the projects, perform a comprehensive review of any news or information available about them, and not if any of them has done anything unethical.",
-                    "example": "",
-                    "question": "Has the dev team worked on any other projects in the past?",
-                    "options": {
-                        "1": "Yes",
-                        "2": "No"
-                    },
-                    "selected": false,
-                    "answer": null,
-                    "textarea": null,
-                    "files": [],
-                    "images": [],
-                    "video": []
-                }
+                },   
             ],
             currentQuestion: [],
             answeredQuestion: []

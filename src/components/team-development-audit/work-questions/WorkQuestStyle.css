@@ -131,7 +131,9 @@ textarea:focus-within {
 
 .css-work-quest-answer-item {
   background: #ffffff;
-  height: 7vh;
+  height: 72px;
+  min-height: 72px;
+  max-height: 72px;
   border-radius: 4px;
   padding: 0 1rem;
   display: flex;
@@ -284,11 +286,7 @@ textarea:focus-within {
 }
 
 #right-arrow {
-  background: linear-gradient(
-    22.58deg,
-    rgba(23, 74, 213, 1) 0%,
-    rgba(48, 99, 238, 1) 100%
-  );
+  background: linear-gradient( 22.58deg, rgba(0, 80, 220, 1) 0%, rgba(0, 105, 245, 1) 100% );
 }
 
 #right-arrow span {

@@ -3,7 +3,7 @@
   max-width: 331px;
   min-width: 331px;
   height: 100%;
-  box-shadow:-1px 0 20px var(--border-primary);
+  border-right: 1px solid var(--border-primary);
 }
 
 .css-work-space-title {

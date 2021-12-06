@@ -61,7 +61,7 @@
       </template>
 
       <div class="work-quest-note">
-        <b>Note: </b>{{ item.note }}. <span><b>Example</b></span>
+        <b>Worksteps: </b>{{ item.worksteps }}.
       </div>
       <template v-if="item.answer != null">
         <div class="work-quest-panel">
